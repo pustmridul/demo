@@ -10,7 +10,11 @@ import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { TeacherComponent } from './teacher/teacher.component';
 import { CountryComponent } from './admin/country/country.component';
-import { AdminModule } from './admin/admin.module';
+import { AdminHeaderComponent } from './admin/admin-header/admin-header.component';
+import { SignupComponent } from './signup/signup.component';
+import { MainSiderComponent } from './main-sider/main-sider.component';
+import { PrevDirective } from './prev.directive';
+import { NextDirective } from './next.directive';
 
 
 @NgModule({
@@ -23,14 +27,18 @@ import { AdminModule } from './admin/admin.module';
     FooterComponent,
     TeacherComponent,
     CountryComponent,
+    AdminHeaderComponent,
+    SignupComponent,
+    MainSiderComponent,
+    PrevDirective,
+    NextDirective
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AdminModule
+
   ],
   providers: [],
-  schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

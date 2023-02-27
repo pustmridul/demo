@@ -1,0 +1,11 @@
+.cate_back{
+  height: 3rem;
+background-color: #e8eff3;
+padding: 10px;
+}
+.blog_type_list{
+  padding: 0.5rem;
+  font-size: 18px;
+  width: 100%;
+border-bottom: 1px solid #ddd;
+}

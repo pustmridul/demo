@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./blog.component.css']
 })
 export class BlogComponent {
-
+  blogType='writing';
+  blogLoad(type: string){
+    this.blogType=type;
+  }
 }

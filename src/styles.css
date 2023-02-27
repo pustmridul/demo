@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+/* .fab{
+    color: var(--heading-color);
+    width: 35px;
+    height: 35px;
+    background: rgb(247 120 60 / 16%);
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+}
+.fab a:hover {
+    background: var(--primary-color);
+    transition: 0.3s ease;
+  } */

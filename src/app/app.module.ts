@@ -15,7 +15,9 @@ import { SignupComponent } from './signup/signup.component';
 import { MainSiderComponent } from './main-sider/main-sider.component';
 import { PrevDirective } from './prev.directive';
 import { NextDirective } from './next.directive';
-
+import { BlogComponent } from './blog/blog.component';
+import { NgbModule }from '@ng-bootstrap/ng-bootstrap';
+import { StudentComponent } from './student/student.component';
 
 @NgModule({
   declarations: [
@@ -31,12 +33,14 @@ import { NextDirective } from './next.directive';
     SignupComponent,
     MainSiderComponent,
     PrevDirective,
-    NextDirective
+    NextDirective,
+    BlogComponent,
+    StudentComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
